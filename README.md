@@ -10,4 +10,4 @@ eg. git checkout -b rajesh-work.
 Note: 
 	naming convention: please use your name followed by work as your branch name. 
 
-Making the amazon web serives environment read.
+Making the amazon web serives environment ready.
