@@ -11,3 +11,5 @@ Note:
 	naming convention: please use your name followed by work as your branch name. 
 
 Making the amazon web serives environment ready.
+
+Created a new branch rima-work from the main branch...
