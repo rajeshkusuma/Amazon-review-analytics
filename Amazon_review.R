@@ -1,4 +1,6 @@
-#Amazon review analytics.
+# Amazon review analytics.
+
+# set the up the amazon aws web serivice
 
 #setting environment using keys
 Sys.setenv("AWS_ACCESS_KEY_ID" = "AKIAINOXIJSE6J6B7R6A",
