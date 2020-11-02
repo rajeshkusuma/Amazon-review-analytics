@@ -10,10 +10,14 @@ eg. git checkout -b rajesh-work.
 Note: 
 	naming convention: please use your name followed by work as your branch name. 
 
-Making the amazon web serives environment ready.
-
 Added Rima as colloborator to the repo, so that she can directly make commits and pull requests from the repo.
 
 Created a new branch rima-work from the main branch...
+
+Making the amazon web serives environment ready.
+	create ec2 instance with spark
+	create s3
+	configure R studio
+	load the data using spark r.
 
 
