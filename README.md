@@ -12,4 +12,8 @@ Note:
 
 Making the amazon web serives environment ready.
 
+Added Rima as colloborator to the repo, so that she can directly make commits and pull requests from the repo.
+
 Created a new branch rima-work from the main branch...
+
+
