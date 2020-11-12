@@ -44,8 +44,12 @@ git push origin rajesh-work
 
 Some useful link which helped.
 https://www.youtube.com/watch?v=T_P-AXR-YCk
+
 https://aws.amazon.com/blogs/big-data/running-sparklyr-rstudios-r-interface-to-spark-on-amazon-emr/
+
 https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-spark-configure.html
+
 https://gist.github.com/cosmincatalin/a2e2b63fcb6ca6e3aaac71717669ab7f/eefdb19af6d3afdcb0506a797c2a5927fac72d5f#file-install-rstudio-server-sh
+
 https://gist.github.com/cosmincatalin/a2e2b63fcb6ca6e3aaac71717669ab7f/eefdb19af6d3afdcb0506a797c2a5927fac72d5f
 
