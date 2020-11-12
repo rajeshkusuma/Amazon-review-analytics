@@ -43,6 +43,7 @@ git push origin rajesh-work
 
 
 Some useful link which helped.
+
 https://www.youtube.com/watch?v=T_P-AXR-YCk
 
 https://aws.amazon.com/blogs/big-data/running-sparklyr-rstudios-r-interface-to-spark-on-amazon-emr/
