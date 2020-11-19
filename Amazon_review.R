@@ -1,10 +1,5 @@
 #Amazon review analytics.
 
-#setting environment using keys
-Sys.setenv("AWS_ACCESS_KEY_ID" = "AKIAINOXIJSE6J6B7R6A",
-           "AWS_SECRET_ACCESS_KEY" = "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",
-           "AWS_DEFAULT_REGION" = "us-west-2)")
-
 #loading library
 library(SparkR)
 
