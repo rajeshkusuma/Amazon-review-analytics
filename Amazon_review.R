@@ -7,17 +7,17 @@ library(SparkR)
 sc = sparkR.session(master='local')
 
 #assigning bucket name
-S3_BUCKET_NAME <- "s3a://sparks3test"
+S3_BUCKET_NAME <- "s3://amazon-review-analyticsv1/Amazon-Review"
 
 #loading datasets
 ar_Movies_and_TV <- SparkR::read.df(path=paste(S3_BUCKET_NAME, 
-                                               "/reviews_Movies_and_TV_5.json", sep = ""), source="json")
+                                               "/reviews_Movies_and_TV_5.json.gz", sep = ""), source="json")
 
 ar_CDs_and_Vinyl <- SparkR::read.df(path=paste(S3_BUCKET_NAME, 
-                                               "/reviews_CDs_and_Vinyl_5.json", sep = ""), source="json")
+                                               "/reviews_CDs_and_Vinyl_5.json.gz", sep = ""), source="json")
 
 ar_Kindle_Store.json <-SparkR::read.df(path=paste(S3_BUCKET_NAME, 
-                                                  "/reviews_Kindle_Store_5.json", sep = ""), source="json")
+                                                  "/reviews_Kindle_Store_5.json.gz", sep = ""), source="json")
 
 # look at the first few rows
 head(ar_CDs_and_Vinyl)
