@@ -20,8 +20,8 @@ To identify the best product category for a new product, some of the question I 
 
 **Data Preparation:**
 
-Performed data ingestion to Amazon S3 bucket on JSON data using AWS CLI commands.
-Checked for data quality issues like missing data, spelling corrections, special charaters in words.
+* Performed data ingestion to Amazon S3 bucket on JSON data using AWS CLI commands.
+* Checked for data quality issues like missing data, spelling corrections, special charaters in words.
 
 **Data Analysis:**
 
