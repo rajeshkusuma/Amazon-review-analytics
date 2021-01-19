@@ -25,11 +25,11 @@ Checked for data quality issues like missing data, spelling corrections, special
 
 **Data Analysis:**
 
-Performed data aggregations and summarisation to understand means, measures of spread, and frequencies.
-Performed statistical aggregations to understand different metrics of each product category like market share, size, no of reviews etc...
-Written lambda functions to extract postive key words from review strings.
-Dervied new columns using SprakR data manipulation fuctions.
-Compared all the metrics across the product categories. Based on the data recommended the best product category.
+* Performed data aggregations and summarisation to understand means, measures of spread, and frequencies.
+* Performed statistical aggregations to understand different metrics of each product category like market share, size, no of reviews etc...
+* Written lambda functions to extract postive key words from review strings.
+* Dervied new columns using SprakR data manipulation fuctions.
+* Compared all the metrics across the product categories. Based on the data recommended the best product category.
 
 **Results and Outcomes:**
 
