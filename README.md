@@ -1,56 +1,36 @@
 # Amazon-review-analytics
-Reviewing the amazon user review data for advance database project
+Data Source: http://jmcauley.ucsd.edu/data/amazon/
 
-clone the master repo in your local using the command
-git clone https://github.com/rajeshkusuma/Amazon-review-analytics.git
+Problem Statment:
+Bases on the market research identify the best product catergory to launch a new product in order to boost revenue.
 
-create respective branches to work on using the following command.
-git checkout -b <brach-name>
-eg. git checkout -b rajesh-work.
-Note: 
-	naming convention: please use your name followed by work as your branch name. 
+Approach Taken:
+Since we are dealing with customer reviews data. It is important to understand what customers are expressing about the products they are buying. To identify the best product category for a new product, some of the question I tried to answers is:
+	1. Which product category has a larger market size?
+	2. Which product category is likely to be purchased heavily?
+	3. Which product category is likely to make the customers happy after the purchase?
+	4. What is the helpful ratio for each product category?
+		helpful ratio: helful reviews/total no of reviews
 
-Added Rima as colloborator to the repo, so that she can directly make commits and pull requests from the repo.
+Implementation:
+Data Preparation:
+Performed data ingestion to Amazon S3 bucket on JSON data using AWS CLI commands.
+Checked for data quality issues like missing data, spelling corrections, special charaters in words.
 
-Created a new branch rima-work from the main branch...
+Data Analysis:
+Performed data aggregations and summarisation to understand means, measures of spread, and frequencies.
+Performed statistical aggregations to understand different metrics of each product category like market share, size, no of reviews etc...
+Written lambda functions to extract postive key words from review strings.
+Dervied new columns using SprakR data manipulation fuctions.
+Compared all the metrics across the product categories. Based on the data recommended the best product category.
 
-Making the amazon web serives environment ready.
-	create ec2 instance with spark
-	create s3
-	configure R studio
-	load the data using spark r.
+Results and Outcomes:
+Recommended “movies and tv” is the best product category based on best customer reviews, the helpful ratio from customer with an average of 8%, and 44 % percent market share in the data.
 
-Setting up the EMR cluster
-go to advance options
-select emr 5.29
-select spark
-s3://adb-amazon-review/Amazon-Review/rstudio_sparklyr_emr5.sh
-
-
-/usr/lib/spark/bin/
-
-
-Some of the git commands extensively used as part of this project.
-git status
-git add
-git commit -m "message"
-
-git show <commit code>
-git checkout <branch name>
-git pull // pulls all the changes from the master to your working branch
-git pull origin main // pulls all changes from other collaborators
-git push origin rajesh-work
-
-
-Some useful link which helped.
-
+Resources and References:
 https://www.youtube.com/watch?v=T_P-AXR-YCk
-
 https://aws.amazon.com/blogs/big-data/running-sparklyr-rstudios-r-interface-to-spark-on-amazon-emr/
-
 https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-spark-configure.html
-
 https://gist.github.com/cosmincatalin/a2e2b63fcb6ca6e3aaac71717669ab7f/eefdb19af6d3afdcb0506a797c2a5927fac72d5f#file-install-rstudio-server-sh
-
 https://gist.github.com/cosmincatalin/a2e2b63fcb6ca6e3aaac71717669ab7f/eefdb19af6d3afdcb0506a797c2a5927fac72d5f
 
