@@ -2,9 +2,11 @@
 Data Source: http://jmcauley.ucsd.edu/data/amazon/
 
 Problem Statment:
+
 Bases on the market research identify the best product catergory to launch a new product in order to boost revenue.
 
 Approach Taken:
+
 Since we are dealing with customer reviews data. It is important to understand what customers are expressing about the products they are buying. To identify the best product category for a new product, some of the question I tried to answers is:
 	1. Which product category has a larger market size?
 	2. Which product category is likely to be purchased heavily?
@@ -13,6 +15,7 @@ Since we are dealing with customer reviews data. It is important to understand w
 		helpful ratio: helful reviews/total no of reviews
 
 Implementation:
+
 Data Preparation:
 Performed data ingestion to Amazon S3 bucket on JSON data using AWS CLI commands.
 Checked for data quality issues like missing data, spelling corrections, special charaters in words.
